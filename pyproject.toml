@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "repl-nix-sytemapp"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+panda = "^0.3.1"
+scikit-learn = "^1.5.1"
+matplotlib = "^3.9.2"
+numpy = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
